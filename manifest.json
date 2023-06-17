@@ -1,0 +1,12 @@
+{
+    "name":"Next-Way",
+    "version":"1.0.0",
+    "description":"This is a YouTube Video MP4 and MP3 Downloader.",
+    "permissions":["activeTab"],
+    "manifest_version":3,
+    "author":"TharU0814",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"Video Downloader"
+    }
+}
