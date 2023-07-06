@@ -36,9 +36,8 @@ chrome.tabs.query({active:true, currentWindow: true}, function(tabs){
                 const img = data["Thumbnail_url"];
 
                 resultDis.innerHTML = `
-                    <h5 style="color:purple; font-size:20px;">Title: ${title}</h5>
-                    <img src="${img}" style="width:400px; height:160px;"/>
-                    
+                    <h7 style="color:purple; font-size:14px;">Title: ${title}</h7>
+                    <img src="${img}" style="width:140px; height:100px;"/>
                     
                 `
             }
