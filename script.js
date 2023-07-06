@@ -25,7 +25,7 @@ chrome.tabs.query({active:true, currentWindow: true}, function(tabs){
         }
     xhr.open(
         "GET",
-        `${process.env.BACKEND_URL}/extenstion?userinput=` + currentUrl,
+        `http://localhost:5000//extenstion?userinput=` + currentUrl,
         true
     );
 
@@ -93,7 +93,7 @@ chrome.tabs.query({active:true, currentWindow: true}, function(tabs){
 
     xhr.open(
         "GET",
-        `${process.env.BACKEND_URL}?userinput=${currentUrl}&video_quality=${video_quality}` , 
+        `http://localhost:5000/?userinput=${currentUrl}&video_quality=${video_quality}` , 
         true
     );
 
